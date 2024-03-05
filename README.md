@@ -1,4 +1,4 @@
-# EXPERIMENT--01-ALP-FOR-8086
+![image](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/4a3cd11c-4805-42c1-82cf-79f23dbac63a)# EXPERIMENT--01-ALP-FOR-8086
 Name :
 Roll no 
 Date of experiment :
@@ -79,25 +79,74 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 
-
+```
+org 100h
+mov ax,0a123h;
+mov bx,0b456h;
+add ax,bx;
+mov [1234h],ax;
+ret
+```
 
 ## Output  
+![image](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/a725e6bd-d5f6-46a4-94f1-c9849aabc4f8)
+
  
 ## Subtraction   of 8 bit numbers  ALP 
+```
+org 100h
+mov ax,0d101h;
+mov bx,0c789h;
+sub ax,bx;
+mov [5678h],ax;
+ret
+```
  
 ## Output  
+![image](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/7e2aa455-a5ff-488e-91da-f02315baa96d)
+
 ## Multiplication alp 
- ## Output  
+```
+
+org 100h
+
+mov ax,0e112h;
+
+mov bx,0f131h;
+
+mul bx;
+
+mov [9101h],ax;
+
+ret
+```
+ ## Output
+ ![image](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/935a15fc-24b5-42d6-9dc6-4a451782ee9e)
+
 
 
 ## Division alp 
+```
+org 100h
+
+mov ax,0b161h;
+
+mov bx,0a415h;
+
+div bx;
+
+mov [1121h],ax;
+
+ret
+```
 
 ## Output  
+![Screenshot 2024-03-05 152431](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/41d371d8-aee5-4412-82ce-663000c49814)
+
 
 
 ## Result :
- 
-
+ The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
 
 
