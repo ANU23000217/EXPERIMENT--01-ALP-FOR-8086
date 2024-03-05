@@ -1,7 +1,6 @@
-![image](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/4a3cd11c-4805-42c1-82cf-79f23dbac63a)# EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+## Name : ANU  RADHA .N
+## Roll no : 212223230018
+## Date of experiment : 3/3/2024
 
 
 
