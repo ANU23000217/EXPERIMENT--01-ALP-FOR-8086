@@ -144,6 +144,53 @@ ret
 
 
 
+## Program for logical operations
+
+```
+
+org 100H  
+
+MOV SI,0532H;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H;
+
+OR AX,BX;
+
+MOV [SI],AX;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H;
+
+AND AX,BX; 
+
+MOV [SI+2],AX;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H; 
+
+XOR AX,BX;    
+
+MOV [SI+4],AX;
+
+MOV AX,0A32H;
+
+NOT AX; 
+
+MOV [SI+6],AX;
+
+ret 
+
+
+```
+
+## Output
+
+![image](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/4b9b6bc6-6e5e-40a9-af6d-36475eb30ed0)
+
 ## Result :
  The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
