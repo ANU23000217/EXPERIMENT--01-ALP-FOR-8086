@@ -87,7 +87,7 @@ mov [1234h],ax;
 ret
 ```
 
-## Output  
+## Output  :
 ![image](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/a725e6bd-d5f6-46a4-94f1-c9849aabc4f8)
 
  
@@ -101,7 +101,7 @@ mov [5678h],ax;
 ret
 ```
  
-## Output  
+## Output  :
 ![image](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/7e2aa455-a5ff-488e-91da-f02315baa96d)
 
 ## Multiplication alp 
@@ -119,7 +119,7 @@ mov [9101h],ax;
 
 ret
 ```
- ## Output
+ ## Output:
  ![image](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/935a15fc-24b5-42d6-9dc6-4a451782ee9e)
 
 
@@ -139,12 +139,16 @@ mov [1121h],ax;
 ret
 ```
 
-## Output  
+## Output  :
 ![Screenshot 2024-03-05 152431](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/41d371d8-aee5-4412-82ce-663000c49814)
 
 
 
-## Program for logical operations
+
+
+
+
+## Program for logical operations:
 
 ```
 
@@ -187,7 +191,7 @@ ret
 
 ```
 
-## Output
+## Output:
 
 ![image](https://github.com/ANU23000217/EXPERIMENT--01-ALP-FOR-8086/assets/139117108/4b9b6bc6-6e5e-40a9-af6d-36475eb30ed0)
 
